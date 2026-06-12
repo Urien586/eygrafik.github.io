@@ -381,8 +381,8 @@ h3 {
 
 .portfolio-grid figcaption {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
   gap: 12px;
   padding: 16px 18px;
   color: var(--muted);
@@ -390,8 +390,8 @@ h3 {
 }
 
 .portfolio-grid figcaption a {
-  flex: 0 0 auto;
   color: var(--coral);
+  line-height: 1.35;
 }
 
 .portfolio-grid figcaption a:hover {
